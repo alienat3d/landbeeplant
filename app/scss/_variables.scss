@@ -1,11 +1,11 @@
 // === COLORS ===
-// $default: #8d8d8d;
-// $title: #29282d;
-// $accent: #fe3e57;
-// $white: #fff;
-// $black: #000;
-// $background: #f6f6f6;
-// $line: #ececec;
+$default: #444;
+$accent: #519819;
+$white: #fff;
+$black: #000;
+$border: #928F8F;
+$btn-gray: #B3B3B3;
+$btn-green: #80C14D;
 // === / COLORS ===
 
 // === TRANSITION ===
@@ -13,10 +13,11 @@
 // === / TRANSITION ===
 
 // === FONTS ===
-// %quicksand-400 {
-//   font-family: "Quicksand-Regular", sans-serif;
-//   font-weight: 400;
-// }
+%dinpro-400 {
+  font-family: "Quicksand-Regular", sans-serif;
+  font-weight: 400;
+}
+
 // === / FONTS ===
 
 // === BUTTONS ===
@@ -31,6 +32,13 @@
 //   cursor: pointer;
 // }
 // === / BUTTONS ===
+
+// === CHECKBOX BORDERS ===
+%borders {
+  border: .5px solid $gray;
+}
+
+// === / CHECKBOX BORDERS ===
 
 // === HIDE CHECKBOX ===
 // %hide-checkbox {
