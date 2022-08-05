@@ -6,7 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  @extend %;
+  @extend %dinpro-400;
   font-size: 18px;
   line-height: 23px;
   color: $default;

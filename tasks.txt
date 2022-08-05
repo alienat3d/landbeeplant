@@ -1,0 +1,1 @@
+TODO: [index.html] bottom-banner: make 30% shadow on it, and it gets brighter, when you hover mouse over it.
