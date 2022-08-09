@@ -1,4 +1,4 @@
-// === COLORS ===
+// COLORS
 $default: #444;
 $accent: #519819;
 $white: #fff;
@@ -6,7 +6,7 @@ $black: #000;
 $border: #928F8F;
 $btn-gray: #B3B3B3;
 $btn-green: #80C14D;
-// === / COLORS ===
+// END COLORS
 
 // === TRANSITION ===
 // $transition-fast: all 0.3s;
@@ -16,6 +16,11 @@ $btn-green: #80C14D;
 %dinpro-400 {
   font-family: 'DIN Pro', sans-serif;
   font-weight: 400;
+}
+
+%dinpro-500 {
+  font-family: 'DIN Pro', sans-serif;
+  font-weight: 500;
 }
 
 // === / FONTS ===
@@ -35,7 +40,7 @@ $btn-green: #80C14D;
 
 // === CHECKBOX BORDERS ===
 %borders {
-  border: .5px solid $gray;
+  border: .5px solid $border;
 }
 
 // === / CHECKBOX BORDERS ===
